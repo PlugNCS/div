@@ -28,7 +28,6 @@ void saisie(){
 	b = readInt("Saisissez b");
 	mod();
 }
-r
 void mod(){
 	if(a%b==0){
 		divisible = true;
