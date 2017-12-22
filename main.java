@@ -18,7 +18,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 LICENCE : https://www.craftsearch.net/LICENSE.txt
 */
 int a,b;
-boolean divisible;
+broolean divisible;
 void main(){
 	saisie();
 }
@@ -28,7 +28,7 @@ void saisie(){
 	b = readInt("Saisissez b");
 	mod();
 }
-
+r
 void mod(){
 	if(a%b==0){
 		divisible = true;
@@ -44,7 +44,7 @@ void mod(){
 void premier(){
 	String choice;
 	int i;
-	choice = readString("Vérifivation de nombres premiers. Utiliser a ou b ?");
+	choice = readString("Vérification de nombres premiers. Utiliser a ou b ?");
 	if(choice.equals("a")){
 		for(i=2; i<=sqrt(a); i++){
 			if(a%i==0){
@@ -75,7 +75,7 @@ void premier(){
 		}
 	}
 	else{
-		println("a ou b, c'est quand meme pas compliqué à écire, si ?!");
+		println("a ou b, c'est quand meme pas compliqué à écrire, si ?!");
 		premier();
 	}
 }
